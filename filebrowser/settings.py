@@ -42,7 +42,7 @@ PATH_TINYMCE = getattr(settings, "FILEBROWSER_PATH_TINYMCE", DEFAULT_PATH_TINYMC
 EXTENSIONS = getattr(settings, "FILEBROWSER_EXTENSIONS", {
     'Folder': [''],
     'Image': ['.jpg','.jpeg','.gif','.png','.tif','.tiff'],
-    'Video': ['.mov','.wmv','.mpeg','.mpg','.avi','.rm'],
+    'Video': ['.mov','.wmv','.mpeg','.mpg','.avi','.rm', '.flv'],
     'Document': ['.pdf','.doc','.rtf','.txt','.xls','.csv'],
     'Audio': ['.mp3','.mp4','.wav','.aiff','.midi','.m4p'],
     'Code': ['.html','.py','.js','.css']
